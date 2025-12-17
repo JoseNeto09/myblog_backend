@@ -1,0 +1,53 @@
+# =========================
+# Dependências
+# =========================
+node_modules/
+
+# =========================
+# Build do projeto
+# =========================
+dist/
+build/
+
+# =========================
+# Variáveis de ambiente
+# =========================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# =========================
+# Logs
+# =========================
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# =========================
+# Cache e ferramentas
+# =========================
+.vite/
+.cache/
+.eslintcache
+
+# =========================
+# Testes
+# =========================
+coverage/
+
+# =========================
+# IDEs / Editores
+# =========================
+.vscode/
+!.vscode/extensions.json
+.idea/
+
+# =========================
+# Sistema operacional
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
